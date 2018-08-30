@@ -30,48 +30,10 @@ html, body {
   margin-bottom: 20px;
 }
 
-/* .ancCol {
-  margin-bottom: 10px;
-} */
-
 .thankyou p {
   text-align: center;
 }
 
 input:invalid {
   border: 1px dashed red;
-}
-
-/* input:valid {
-  border: 2px dashed green;
-} */
-
-
-
-
-#modalContent-dnasurvey {
-  width: 375px;
-  background-color: #fff;
-  padding: 15px;
-}
-.qualtrics-dna-logo {
-  margin: 0 auto;
-  height: 20px;
-}
-.qualtrics-copy {
-  margin-top: 16px;
-  margin-left: 15px;
-  color: #3b3b3b;
-}
-.qualtrics-button {
-  margin-top: 15px;
-  margin-left: 15px;
-}
-@media only screen and (max-width: 767px) {
-  .modal-contents {
-    padding: 0px;
-  }
-  #modalContent-dnasurvey {
-    width: 300px;
-  }
 }
