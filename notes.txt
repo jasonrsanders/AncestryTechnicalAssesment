@@ -7,12 +7,6 @@ STEPS:
 //4. Make name and email required before button click
 5. build the marketing report page
 
-
-Timing:
--Front-end:       2.5 hours
--Report Page:
--Backend:         3 hours
-
 Feedback Survey Business Requirements
 The company is considering redesigning our website, and the marketing team would like to collect feedback from users about their experience using Ancestry to assess which pages need redesign. Here are the requirements of the feedback survey:
   •	A link to the feedback survey will be placed on every Ancestry.com web page.

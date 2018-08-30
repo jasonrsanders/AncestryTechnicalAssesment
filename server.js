@@ -47,7 +47,6 @@ db.close((err) => {
 });
 // });
 
-
 // Run a GET command to pull data from table; send to marketing report page for processing and display
   // Didn't have the time to work on this piece
 

@@ -16,6 +16,10 @@ angular.module('app', ['ui.router'])
         url: '/thankyou',
         templateUrl: 'views/thankyou.html'
       })
+      .state('report', {
+        url: '/marketingreport',
+        templateUrl: 'views/report.html'
+      })
 
     $urlRouterProvider
       .otherwise('/');
