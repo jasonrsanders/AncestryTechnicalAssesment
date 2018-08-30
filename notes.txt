@@ -1,0 +1,50 @@
+Ancestry Technical Assessment
+
+STEPS:
+//1. build html/css of a basic, simple page
+//2. build back end
+3. connect front with back
+//4. Make name and email required before button click
+5. build the marketing report page
+
+
+Timing:
+-Front-end:       2.5 hours
+-Report Page:
+-Backend:         3 hours
+
+Feedback Survey Business Requirements
+The company is considering redesigning our website, and the marketing team would like to collect feedback from users about their experience using Ancestry to assess which pages need redesign. Here are the requirements of the feedback survey:
+  •	A link to the feedback survey will be placed on every Ancestry.com web page.
+  •	The survey page should ask the following questions:
+    o	Name (required)
+    o	Email address (required)
+    o	Age
+    o	Gender
+    o	Country
+    o	Experience rating (scale of 1-5)
+    o	Suggested improvements (free text form)
+    o	Origin page (hidden and pre-filled with the page the user came from)
+  •	On submitting the survey, the user will be navigated to a thank you page displaying a “Thank you” message and given the option to either close the browser window or navigate back to the Ancestry.com page they came from.
+  •	A separate report page to be used by marketing displaying:
+    o	Average age of the responders.
+    o	Average experience rating of the responders.
+    o	Gender distribution
+    o	Country distribution
+    o	Total number of results
+
+Marketing would like to see a prototype for this afternoon’s meeting to see if it will meet their needs.
+
+ 
+Technical Requirements
+You have been asked by your team manager to implement the prototype of the feedback survey.
+The prototype must be implemented in Node.js with SQLite for data storage.
+The following is NOT required:
+  •	user authentication and authorization
+  •	a pixel perfect UI
+
+Helpful Tips
+Remember you are producing a prototype, not a releasable solution. But we are developers, so we will be looking for good development practices in your solution.
+Focus on getting the application to work first, and then add extras afterwards.
+You will be assessed based on your skill level. We would expect a higher standard from senior developer versus a junior.
+You will be assessed on the overall solution, so avoid spending too much time on areas where you are strong.
