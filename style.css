@@ -37,3 +37,7 @@ html, body {
 input:invalid {
   border: 1px dashed red;
 }
+
+#button-disabled {
+  color: red;
+}

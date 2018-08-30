@@ -3,7 +3,7 @@
   <p>Ancestry is considering redesigning our website and would like to collect feedback about your experience using Ancestry. The survey should only take a few minutes to complete. Thank you for your time.</p>
 </div>
 <div ng-controller="homeCtrl">
-  <form action="/sugg-route" class="form" enctype="multipart/form-data" method="post" id="myValidation">
+  <form action="/sugg-route" class="form" enctype="multipart/form-data" method="post" name="theform" id="myValidation">
     <div class="ancGrid">
 
       <!-- Name -->
@@ -77,7 +77,7 @@
       <!-- Submit button -->
       <div class="ancCol ancColRow w100 formFooter">
         <input class="ancBtn orange disabled" type="submit" ng-click="submitFeedback()" id="submitFeedback" name="submit" value="Submit Survey" ui-sref="thankyou" href="#/thankyou"/>
-        <p class="button-disabled">Please fill out all required fields</p>
+        <p id="button-disabled">Please fill out all required fields</p>
       </div>
 
     </div>

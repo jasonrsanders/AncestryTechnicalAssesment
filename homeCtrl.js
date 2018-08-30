@@ -3,13 +3,15 @@ angular.module('app').controller('homeCtrl', function($scope, $http) {
   // Monitor required fields and disable/enable the submit button depending on status
   if(document.location.href.indexOf('thankyou') === -1) {
     var interval = window.setInterval(function() {
-      var name = document.getElementById('name');
-      var email = document.getElementById('email');
-      if(name.value && email.value) {
+      var name = document.forms["theform"]["name"].value;
+      var email = document.forms["theform"]["email"].value;
+      if(name && email) {
         document.getElementById('submitFeedback').classList.remove("disabled");
+        document.getElementById('button-disabled').setAttribute("style", "display:none");
       }
-      else if (!document.getElementsByClassName('disabled')) {
+      else {
         document.getElementById('submitFeedback').classList.add("disabled");
+        document.getElementById('button-disabled').setAttribute("style", "display:block");
       }
     }, 50);
   }
